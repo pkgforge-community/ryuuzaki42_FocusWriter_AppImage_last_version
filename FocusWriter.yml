@@ -14,5 +14,5 @@ script:
   - sudo apt install -y ./focuswriter_1.8.6-0+1.1_amd64.deb
   - sudo apt install -y -f
   - sudo apt list --upgradable
-  - sudo upgrade
+  - sudo apt upgrade
   - cp ../../README.md .

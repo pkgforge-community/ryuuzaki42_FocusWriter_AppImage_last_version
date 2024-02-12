@@ -2,6 +2,8 @@ app: focuswriter
 
 ingredients:
   dist: focal
+  packages:
+    - focuswriter=1.8.6
   sources:
     - deb http://archive.ubuntu.com/ubuntu/ focal main universe
   ppas:

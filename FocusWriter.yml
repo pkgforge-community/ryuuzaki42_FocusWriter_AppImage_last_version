@@ -8,4 +8,6 @@ ingredients:
     - ppa:gottcode/gcppa
 
 script:
+  - sudo apt-get update
+  - sudo apt-get install focuswriter
   - cp ../../README.md .

@@ -19,7 +19,12 @@ jobs:
     - uses: actions/checkout@master
 
     - name: Install fuse and libfuse2
-      run: sudo apt install fuse libfuse2
+      run: |
+        sudo apt install fuse libfuse2
+        echo 'deb http://download.opensuse.org/repositories/home:/gottcode/xUbuntu_22.04/ /' | sudo tee /etc/apt/sources.list.d/home:gottcode.list
+        curl -fsSL https://download.opensuse.org/repositories/home:gottcode/xUbuntu_22.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_gottcode.gpg > /dev/null
+        sudo apt update
+        #sudo apt install focuswriter
 
     - name: Get pkg2appimage
       run: |

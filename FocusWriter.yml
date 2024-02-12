@@ -6,6 +6,7 @@ ingredients:
     - focuswriter=1.8.6
     - qt6
     - qt6-multimedia
+    - libqt6multimedia6
 
   sources:
     - deb http://archive.ubuntu.com/ubuntu/ focal main universe

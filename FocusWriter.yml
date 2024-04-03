@@ -3,7 +3,7 @@ app: focuswriter
 ingredients:
   dist: focal
   packages:
-    - focuswriter=1.7.6
+    - focuswriter=1.8.6
    # - qt6
    # - qt6-multimedia
    # - libqt6multimedia6

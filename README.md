@@ -5,7 +5,7 @@
 
 ### * Need QT6
 
-## Repository: https://github.com/ryuuzaki42/FocusWriter_AppImage_last
+## Repository: https://github.com/ryuuzaki42/FocusWriter_AppImage_last_version
 
 ---
 ### For a version that needs QT5

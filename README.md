@@ -1,6 +1,8 @@
 
 # FocusWriter_AppImage
 
+## FocusWriter_AppImage last version
+
 ### * Need QT6
 
 ## Repository: https://github.com/ryuuzaki42/FocusWriter_AppImage_last

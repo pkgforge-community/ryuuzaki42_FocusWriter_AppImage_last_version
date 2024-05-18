@@ -3,7 +3,7 @@ app: focuswriter
 ingredients:
   dist: jammy
   sources:
-    - deb http://archive.ubuntu.com/ubuntu/ main universe
+    - deb http://archive.ubuntu.com/ubuntu/ jammy main universe
 
 script:
   - set -x

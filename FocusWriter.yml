@@ -1,11 +1,9 @@
 app: focuswriter
 
 ingredients:
-  dist: focal
-  packages:
-    - focuswriter=1.8.6
+  dist: jammy
   sources:
-    - deb http://archive.ubuntu.com/ubuntu/ focal main universe
+    - deb http://archive.ubuntu.com/ubuntu/ main universe
 
 script:
   - set -x

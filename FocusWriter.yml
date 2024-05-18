@@ -1,18 +1,9 @@
 app: focuswriter
 
 ingredients:
-  dist: focal
-  packages:
-    - focuswriter #=1.8.6
-    - qt6
-   # - qt6-multimedia
-   # - libqt6multimedia6
-
+  dist: jammy
   sources:
-    - deb http://archive.ubuntu.com/ubuntu/ focal main universe
-    - deb http://download.opensuse.org/repositories/home:/gottcode/xUbuntu_22.04/ /
-  ppas:
-    - gottcode/gcppa
+    - deb http://archive.ubuntu.com/ubuntu/ jammy focal main universe
 
 script:
   - set -x

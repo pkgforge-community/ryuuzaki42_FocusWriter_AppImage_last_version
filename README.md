@@ -3,7 +3,7 @@
 
 ## FocusWriter_AppImage last version
 
-### * Need QT6
+### * Need QT6 and GlibC >= 2.34
 
 ## Repository: https://github.com/ryuuzaki42/FocusWriter_AppImage_last_version
 

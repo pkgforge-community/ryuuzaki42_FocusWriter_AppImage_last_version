@@ -3,8 +3,8 @@ app: focuswriter
 ingredients:
   dist: focal
   packages:
-    - focuswriter=1.8.6
-   # - qt6
+    - focuswriter #=1.8.6
+    - qt6
    # - qt6-multimedia
    # - libqt6multimedia6
 
@@ -15,13 +15,6 @@ ingredients:
     - gottcode/gcppa
 
 script:
-  #- set -x
-  #- ls -lhaR
-  #- wget https://download.opensuse.org/repositories/home:/gottcode/xUbuntu_22.04/amd64/focuswriter_1.8.6-0+1.1_amd64.deb
-  #- sudo apt update
-  #- sudo apt remove -y focuswriter
-  #- sudo apt install -y ./focuswriter_1.8.6-0+1.1_amd64.deb
-  #- sudo apt install -y -f
-  #- sudo apt list --upgradable
-  #- sudo apt upgrade -y
+  - set -x
+  - ls -lhaR
   - cp ../../README.md .

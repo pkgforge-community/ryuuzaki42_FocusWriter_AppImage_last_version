@@ -1,9 +1,11 @@
 app: focuswriter
 
 ingredients:
-  dist: oracular
+  dist: focal
+  packages:
+    - focuswriter=1.8.6
   sources:
-    - deb http://archive.ubuntu.com/ubuntu/ oracular main universe
+    - deb http://archive.ubuntu.com/ubuntu/ focal main universe
 
 script:
   - set -x

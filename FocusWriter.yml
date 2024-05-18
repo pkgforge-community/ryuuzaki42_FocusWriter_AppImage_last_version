@@ -1,9 +1,9 @@
 app: focuswriter
 
 ingredients:
-  dist: jammy
+  dist: mantic
   sources:
-    - deb http://archive.ubuntu.com/ubuntu/ jammy main universe
+    - deb http://archive.ubuntu.com/ubuntu/ mantic main universe
 
 script:
   - set -x

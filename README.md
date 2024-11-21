@@ -7,8 +7,9 @@
 ## Repository: https://github.com/ryuuzaki42/FocusWriter_AppImage_last_version
 
 ---
-### For a version that needs QT5
-https://github.com/ryuuzaki42/FocusWriter_AppImage
+Version that not need QT6: https://github.com/ryuuzaki42/FocusWriter_AppImage
+
+Full version, with Qt6 e Glibc 2.34: https://github.com/ryuuzaki42/AppImage_Full_ArchImage
 
 ---
 https://gottcode.org/focuswriter/

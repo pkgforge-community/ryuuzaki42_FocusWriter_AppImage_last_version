@@ -19,4 +19,5 @@ https://github.com/gottcode/focuswriter
 ---
 https://github.com/gottcode/focuswriter/releases
 
+---
 https://launchpad.net/ubuntu/+source/focuswriter

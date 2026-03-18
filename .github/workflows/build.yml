@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-22.04
 
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v6
 
     - name: Install fuse and libfuse2
       run: sudo apt install fuse libfuse2
@@ -47,12 +47,13 @@ jobs:
         md5sum "${fileNameNew}-1_JB.AppImage" > "${fileNameNew}-1_JB.AppImage.md5"
         pwd; ls -lah
 
-    - uses: xresloader/upload-to-github-release@main
+    - uses: xresloader/upload-to-github-release@v1
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
           file: "out/FocusWriter-*.AppImage; out/FocusWriter-*.md5"
-          release_id: ${{ steps.create_release.outputs.id }}
+          #overwrite: true
           verbose: true
+          #tags: true
           draft: false
           default_release_name: "FocusWriter V in AppImage"

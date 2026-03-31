@@ -1,7 +1,7 @@
 
 # FocusWriter_AppImage
 
-FocusWriter is a simple, distraction-free word processor.
+FocusWriter is a simple, distraction-free word processor
 
 https://gottcode.org/focuswriter/
 

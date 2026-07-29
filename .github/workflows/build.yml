@@ -1,5 +1,5 @@
 name: Create new release
-# Update test 1
+# Update test 2
 
 on:
   push:
